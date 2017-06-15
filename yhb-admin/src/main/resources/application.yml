@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+#redis
+redisKey:
+  #redis缓存时间
+  expire_time: 120
+  prefix:
+     #redis前缀
+     rate: 'sevenRate'
